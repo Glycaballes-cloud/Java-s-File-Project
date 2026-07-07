@@ -80,9 +80,6 @@ public class TrueHangmanGame {
         scanner.close();
     }
 
-    /**
-     * A helper method to print the ASCII art for the Hangman.
-     */
     private static void printHangman(int wrongGuesses) {
         String[] stages = {
             // Stage 0: 0 wrong guesses
